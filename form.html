@@ -1,0 +1,119 @@
+<html>
+<head>
+<title>Tshirt form </title>
+
+</head>
+<body>
+    <h1 align="center">Tshirt Home Delivery Form</h1>
+    <form>
+    <table align="center" cellpadding = "10">
+        <tr>
+            <td>First Name</td>
+            <td><input type="text" name="FirstName" maxlength="50" placeholder="FirstName" />
+            (Max 50 Characters Allowed)
+            </td>
+        </tr>
+        <tr>
+            <td>Last Name</td>
+            <td><input type="text" name="LastName" maxlength="50" placeholder="LastName" />
+            (Max 50 Characters Allowed)
+            </td>
+        </tr>
+        
+        <tr>
+            <td>Email ID</td>
+            <td><input type="email" name="EmailID" maxlength="100" placeholder="Enter your email id" required></td>
+        </tr>
+       
+        <tr>
+            <td>Mobile Number</td>
+            <td>
+            <input type="text" name="MobileNumber" maxlength="10" placeholder="9820xxxxxx"/>
+            (10 Digits Allowed)
+            </td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>
+            <input type="radio" name="Gender" value="Male" />
+            Male
+            <input type="radio" name="Gender" value="Female" />
+            Female
+            </td>
+        </tr>
+        <tr>
+            <td>Size</td>
+            <td>
+            <input type="radio" name="Small" value="Small" />
+            Small
+            <input type="radio" name="Medium" value="Medium" />
+            Medium
+            <input type="radio" name="Large" value="Large" />
+            Large
+            </td>
+        </tr>
+        <tr>
+            <td>Address<br /><br /><br /></td>
+            <td><textarea name="Address" rows="10" cols="50"></textarea></td>
+        </tr>
+         
+        <tr>
+            <td>City</td>
+            <td><input type="text" name="City" maxlength="50" placeholder="City"/>
+            (Max 50 Characters Allowed)
+            </td>
+        </tr>
+        <tr>
+            <td>Pin Code</td>
+            <td><input type="Number" name="PinCode" maxlength="6" placeholder="111111"/>
+            (Max 6 Numbers Allowed)
+            </td>
+        </tr>
+        <tr>
+            <td>State</td>
+            <td><input type="text" name="State" maxlength="50" placeholder="State"/>
+            (Max 50 Characters Allowed)
+            </td>
+        </tr>
+
+        <tr>
+            <td>Country</td>
+            <td><input type="text" name="Country" placeholder="India" /></td>
+        </tr>
+        <tr>
+            <td>Tshirt Colour:</td>
+            <td>
+            <select name="Colour" id="Colour">
+            <option value="-1">Colour</option>
+            <option value="1">Red</option>
+            <option value="2">Blue</option>
+            <option value="3">Green</option>
+            <option value="4">Yellow</option>
+            <option value="5">Black</option>
+            <option value="6">white</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Quantity</td>
+            <td>
+            <select name="Quantity" id="Quantity">
+            <option value="-1">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        
+        <tr>
+            <td colspan="2" align="center">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+            </td>
+        </tr>
+
+    </table>
+    </form>
+    
+</body>
+</html>
